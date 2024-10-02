@@ -50,7 +50,7 @@
         document.getElementById('modelCanvas').appendChild(renderer.domElement);
 
         const loader = new THREE.GLTFLoader();
-        loader.load('你的模型文件路径.glb', function(gltf) {
+        loader.load('阳光沙滩.glb', function(gltf) {
             scene.add(gltf.scene);
             renderer.render(scene, camera);
         });
